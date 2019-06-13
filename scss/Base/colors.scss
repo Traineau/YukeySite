@@ -1,0 +1,24 @@
+$theme-bg: #8847FF;
+$theme-bg-light: #B575FF;
+$theme-text : #8948FF;
+
+$theme-text-bg : #52EBB2;
+
+$theme-btn: #8746FF;
+
+.theme-gradiant{
+    background-image: linear-gradient( 60deg, #8847FF, #B575FF);
+}
+.text-theme{
+    color:#8746FF;
+}
+.hl-purple{
+    background-color: #8746FF;
+    color: #000;
+    font-weight: 600;
+}
+.hl-green{
+    background-color:#52EBB2;
+    color: #000;
+    font-weight: 600;
+}

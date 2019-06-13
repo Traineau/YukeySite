@@ -1,0 +1,66 @@
+@font-face {
+    font-family: "Inter-Light-BETA";
+    src: url("./fonts/Inter-Light-BETA.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Inter-Medium";
+    src: url("./fonts/Inter-Medium.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Inter-Regular";
+    src: url("./fonts/Inter-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Inter-SemiBold";
+    src: url("./fonts/Inter-SemiBold.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Inter-Black";
+    src: url("./fonts/Inter-Black.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Inter-Bold";
+    src: url("./fonts/Inter-Bold.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Inter-ExtraBold";
+    src: url("./fonts/Inter-ExtraBold.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Inter-ExtraLight-BETA";
+    src: url("./fonts/Inter-ExtraLight-BETA.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
+$font-main-regular: "Inter-Regular";
+$font-main-light: "Inter-Light-BETA";
+$font-main-medium: "Inter-Medium";
+$font-main-semibold: "Inter-SemiBold";
+$font-main-bold: "Inter-Bold";
+$font-main-black: "Inter-Black";

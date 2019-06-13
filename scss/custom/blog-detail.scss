@@ -1,0 +1,12 @@
+.blog-detail.top-header {
+  .navbar.custom-nav .navbar-collapse .nav-link {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 20px;
+
+    &.btn-contact {
+      color: #fff !important;
+    }
+  }
+}

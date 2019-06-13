@@ -1,0 +1,30 @@
+.btn-contact-dark {
+    background: #8746FF;
+    color:#fff;
+    padding: 20px 34px;
+    font-size: 14px;
+    font-weight: 800;
+    border-radius: 10px;
+    min-width:190px;
+}
+.btn-contact {
+    background: #8746FF;
+    color:#fff;
+    border-radius: 8px;
+}
+.btn-contact:hover, .btn-contact-dark:hover {
+    background: #7a3cef;
+    color:#fff;
+}
+.btn-about {
+    padding: 20px 30px;
+    background: #fff;
+    color: #7a3cef;
+    font-weight: 600;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px #0001;
+}
+.link-g{
+    color: #52EBB2;
+    text-decoration: underline;
+}

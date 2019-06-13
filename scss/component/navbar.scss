@@ -1,0 +1,48 @@
+.navbar.custom-nav{
+    background: transparent;
+    z-index: 1000;
+    color:#fff;
+    padding: 15px 60px;
+    padding-top:48px;
+
+    .navbar-toggler{
+        color: #fff;
+    }
+
+    .navbar-collapse {
+        justify-content: flex-end;
+
+        a.nav-link {
+            color: #fff;
+            font-size: 18px;
+            font-weight: 500;
+            padding: 10px 20px;
+            
+        }
+
+    }
+
+    
+    @media screen and (max-width:768px) {
+        &{
+            padding: 15px 15px;
+            padding-top: 30px;
+            background-color: #9857ff;
+        }
+        .navbar-collapse .nav-item{
+            text-align: left;
+
+           a.nav-link.btn.btn-contact {
+                display: inline-block;
+                margin-right: auto;
+            }
+        }
+    }
+
+    @media screen and (max-width:568px) {
+        .navbar-brand .brand-logo {
+            width: 80px;
+        }
+    }
+
+}

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Yukey</title>
+
+    <!-- ======================================== bootstrap ======================================== -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <!-- ======================================== Custom Styles ======================================== -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <!-- ===================
+      top-header 
+  ===================== -->
+    <section class="top-header theme-gradiant blog">
+      <img alt="" class="top-left" src="images/header/shape-top-left.png" />
+      <img alt="" class="top-top" src="images/header/shape-top.png" />
+      <nav class="navbar navbar-expand-md custom-nav">
+        <a class="navbar-brand" href="index.html">
+          <img alt="" src="images/logo.svg" width="200" class="brand-logo" />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapsibleNavbar"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" style="font-size: 15px" href="index.html"
+                >Yukey</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="font-size: 15px" href="blog-page.html"
+                >Blog</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="font-size: 15px" href="contact.html"
+                >Nous contacter</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link btn btn-contact"
+                style="font-size: 15px"
+                href="index.html"
+                >Je veux être informé</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="content">
+        <!-- heading -->
+        <h2 class="section-head">
+          Blog immobilier
+        </h2>
+
+        <p>
+          Bonjour<br />
+          <br />
+          Yukey vous propose ici de
+          <span class="hl-green"> précieux conseils</span> pour vendre ou
+          acheter un bien immobilier de particulier<br />
+          à particulier. Vous aurez également toutes les informations sur les
+          démarches à adopter <br />
+          <br />
+          Bientôt <span class="hl-green">tout cela sera si simple</span> avec
+          <a href="index.html" class="link-g">Yukey</a> ! Faites connaissances
+          avec notre assistant !
+        </p>
+
+        <!-- ask -->
+        <a href="index.html">
+          <button class="btn btn-about">
+            Faire connaissance avec Yukey
+          </button>
+        </a>
+      </div>
+    </section>
+
+    <!--==========================
+            Blog section
+    ========================= -->
+    <section class="blog-section">
+      <div class="container">
+        <div class="blog-lists row" id="allArticles"></div>
+      </div>
+      <!-- container -->
+    </section>
+    <!-- blog-section -->
+
+    <!--==========================
+            Footer
+    ========================= -->
+    <footer class="footer theme-gradiant">
+      <div class="bg-image"></div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="left-section">
+            <div class="footer-field">
+              <h4 class="field-head">L’application</h4>
+              <ul class="field-options">
+                <li class="field-option"><a href="">Yukey </a></li>
+                <li class="field-option"><a href="">TravelZone@mail.com</a></li>
+                <li class="field-option"><a href="">Le concept</a></li>
+              </ul>
+            </div>
+            <div class="footer-field">
+              <h4 class="field-head">Yukey</h4>
+              <ul class="field-options">
+                <li class="field-option"><a href="">Qui sommes-nous ?</a></li>
+                <li class="field-option"><a href="">L’équipe</a></li>
+                <li class="field-option">
+                  <a href="">Politique de respect de la vie privée</a>
+                </li>
+                <li class="field-option">
+                  <a href="">Conditions d'utilisation</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-field">
+              <h4 class="field-head">Contact</h4>
+
+              <ul class="field-options">
+                <li class="field-option">
+                  <div class="social-icons">
+                    <a class="social-icon" href=""
+                      ><img src="images/icon/fb-logo.png"
+                    /></a>
+                    <a class="social-icon" href=""
+                      ><img src="images/icon/insta-logo.png"
+                    /></a>
+                    <a class="social-icon" href=""
+                      ><img src="images/icon/twitter.png"
+                    /></a>
+                    <a class="social-icon" href=""
+                      ><img src="images/icon/linkedin-letters.png"
+                    /></a>
+                  </div>
+                </li>
+                <li class="field-option"><a href="">Nous contacter</a></li>
+              </ul>
+            </div>
+            <div class="footer-field">
+              <img
+                class=""
+                src="images/background-images/undraw_note_list_etto.png"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ======================================== Jquery ======================================== -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <!-- ======================================== bootstrap ======================================== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.0/showdown.min.js"></script>
+    <script src="./controller/controller.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

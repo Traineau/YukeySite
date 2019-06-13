@@ -1,0 +1,24 @@
+.blog.top-header {
+    
+  .section-head {
+    margin-top: 40px;
+    margin-bottom: 28px;
+  }
+  p{
+    font-size: 18px;
+    line-height: 23px;
+    color: #fff;
+    width: 864px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    text-align: left;
+    max-width: 80vw;
+  }
+  @media screen and (max-width:568px) {
+    .section-head {
+        font-size: 32px;
+    }
+    
+    
+}
+}

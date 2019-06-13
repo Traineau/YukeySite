@@ -1,0 +1,177 @@
+.footer {
+    background-image: linear-gradient(60deg, #8847FF, #B575FF);
+    padding: 60px 56px;
+    position: relative;
+
+    .bg-image {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .left-section {
+        display: flex;
+        padding: 0;
+
+        .footer-field {
+            display: flex;
+            flex-direction: column;
+            color: #fff;
+            margin-left: 5vw;
+            margin-top: 40px;
+
+            
+
+            .field-head {
+                color: #fff;
+                font-size: 18px;
+                line-height: 21px;
+                position: relative;
+                font-weight: 600;
+                margin-bottom: 17px;
+            }
+
+            .field-options {
+                list-style: none;
+                padding: 0;
+
+                .field-option {
+                    font-size: 16px;
+                    line-height: 19px;
+                    transition: .5s;
+                    position: relative;
+                    font-weight: 400;
+                    margin-bottom: 14px;
+
+                    a {
+                        transition: .5s;
+                        position: relative;
+                        left: 0;
+                    }
+
+                    a::after {
+                        content: "";
+                        width: 0%;
+                        position: absolute;
+                        height: 2px;
+                        border-bottom: 1px solid #52EBB2;
+                        transition: .5s;
+                        top: 100%;
+                        left: 0;
+
+                    }
+
+                    &:hover {
+                        a {
+                            color: #52EBB2;
+                            position: relative;
+                            left: 10px;
+                            transition: .5s;
+
+                            &::after {
+                                width: 100%;
+                            }
+                        }
+                    }
+
+                }
+
+                .field-option {
+                    &:hover {
+                        .social-icons {
+                            a.social-icon {
+                                color: #52EBB2;
+                                position: relative;
+                                left: 0;
+                                transition: .5s;
+
+                                &::after {
+                                    width: 0%;
+                                }
+                            }
+                        }
+                    }
+                }
+
+
+
+                .social-icons {
+                    .social-icon {
+                        margin: 0 5px;
+
+                        &:hover {
+                            color: #52EBB2;
+                            position: relative;
+                            left: 0;
+                            transition: .5s;
+
+                            &::after {
+                                width: 100%;
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+
+    
+    .bg-img {
+        position: absolute;
+        top: 5%;
+        max-width: none;
+        max-height: 90%;
+        right: 10%;
+    }
+
+
+
+
+
+
+
+
+    @media screen and (max-width:1200px) {
+        .right-section {
+            text-align: center;
+            margin: 40px 0;
+        }
+    }
+
+
+    @media screen and (max-width:1024px) {
+        .left-section {
+            justify-content: left;
+            flex-wrap: wrap;
+
+            .footer-field {
+                flex-direction: column;
+
+                .field-options {
+                    margin-left: 0;
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width:568px) {
+        .left-section {
+            justify-content: center;
+            text-align: center;
+            flex-direction: column;
+            align-items: center;
+
+            .footer-field {
+                margin-left: 0;
+                margin-top: 40px;
+
+                .field-head:after {
+                    bottom: -4px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
